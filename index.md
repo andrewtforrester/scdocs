@@ -37,7 +37,7 @@ Simple Charity's website is built on a few key technologies. Some are important 
     - Twig & Twig Language 
     - Vue  
     - Javascript Code Snippets  
-2. Git, if it's not already installed on your machine. 
+2. Git. It's probably on your machine already but you can run `git --version` on mac to check. If it's not installed already, follow the directions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install it. 
 3. [Tower](https://www.git-tower.com/mac). SC uses a git methodology called _[Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)_, and tower makes Gitflow very intuitive. They offer [free licenses for students](https://www.git-tower.com/students/mac) at accredited universities. If you're very comfortable with git in the command line, this isn't strictly necessary. 
 4. NPM and NodeJS
 5. Docker Desktop
