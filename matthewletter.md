@@ -1,4 +1,4 @@
-## Hi,
+### Hi,
 
 I am Mathew Luo, one of Simple Charity's 2021 summer interns. This is the first year that Brian recruited interns to work on web development. I spent my seven weeks at the internship learning the techstack and designing and coding pages for the website. I will outline the different web technologies I used, my experience working on the website, and the lessons I learned from the internship. 
 
