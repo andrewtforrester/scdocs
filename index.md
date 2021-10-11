@@ -38,7 +38,7 @@ Simple Charity's website is built on a few key technologies. Some are important 
     - Vue  
     - Javascript Code Snippets  
 2. Git, if it's not already installed on your machine. 
-3. Tower. SC uses a git methodology called _Git Flow_, and tower makes Git Flow very intuitive. They offer free licenses for students at accredited universities. If you're very confortable with git in the command line, this isn't strictly necessary. 
+3. [Tower](https://www.git-tower.com/mac). SC uses a git methodology called _[Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)_, and tower makes Gitflow very intuitive. They offer [free licenses for students](https://www.git-tower.com/students/mac) at accredited universities. If you're very comfortable with git in the command line, this isn't strictly necessary. 
 4. NPM and NodeJS
 5. Docker Desktop
 6. OpenSSH
