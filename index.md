@@ -1,6 +1,30 @@
 ## Simple Charity Tech Stack Documentation
 
-Welcome! Whether [you're new](/matthewletter.md) to web development with Simple Charity or just looking to debug something, you'll find everything you need here. 
+Welcome! Whether [you're new](/matthewletter.md) to web development with Simple Charity or you're a seasoned developer and are just looking to debug something, you'll find everything you need here. 
+
+### Resources for Learning
+
+Simple Charity's website is built on a few key technologies. Some are important to learn before you start working on the site, and others are best learned while working on it: 
+
+#### Before you start, you'll probably want to learn about: 
+
+1. HTML/CSS.  
+2. Craft. 
+3. Basic Vue. 
+
+#### Once you get going, take a look at: 
+
+### Dependencies
+### Quick Start Guide
+### Contact
+
+[Andrew](mailto:andrewforrester@simplecharity.org) maintains this site and can (probably) answer questions about the SC tech stack and web dev in general. 
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/andrewtforrester/scdocs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
