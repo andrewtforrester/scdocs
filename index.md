@@ -1,6 +1,6 @@
 ## Simple Charity Tech Stack Documentation
 
-Welcome! Whether [you're new][/matthewletter.md] to web development with Simple Charity or just looking to debug something, you'll find everything you need here. 
+Welcome! Whether [you're new](/matthewletter.md) to web development with Simple Charity or just looking to debug something, you'll find everything you need here. 
 
 You can use the [editor on GitHub](https://github.com/andrewtforrester/scdocs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
