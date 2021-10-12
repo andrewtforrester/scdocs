@@ -10,15 +10,16 @@ Simple Charity's website is built on a few key technologies. Some are important 
 
 1. The Command Line (Powershell on Windows and Bash/ZSh on Mac)
 2. Understand Git
-3. Get to know the file system on your maachine
+3. Get to know the file system on your machine
 
 ##### Before you start, you'll probably want to learn about: 
 
-1. Git
-2. HTML/CSS
-3. Craft Basics 
-4. Tailwind
-5. Basic Vue
+1. Git. Good documentation can be found [here](https://git-scm.com/doc). 
+2. HTML/CSS. There are lots of good resources on the internet for learning these but [this](https://www.udemy.com/course/html-css-code-bootcamp/) course is very comprehensive and doesn’t have much of a learning curve. 
+3. Craft Basics. Craft here an excellent [intro tutorial](https://craftcms.com/docs/getting-started-tutorial/) which covers everything you’ll need to know to get started. 
+4. Tailwind. Tailwind has very excellent [documentation](https://tailwindcss.com/docs). Start be reading the “getting started” and “core concepts” sections, and then reference the rest as needed. 
+5. Basic Vue. Their [docs](https://vuejs.org/v2/guide/) are pretty good. [This](https://www.udemy.com/course/vuejs-2-the-complete-guide/) is also a good course. Don’t learn too much yet, you can pick it up as you start to work on the site pretty easily. 
+6. Basic Twig Templating. The [twig docs](https://twig.symfony.com/doc/3.x/) are ok, but they cover _way more_ that you’ll need to know. Part 3 of the craft [intro tutorial](https://craftcms.com/docs/getting-started-tutorial/) will cover everything you need to know. 
 
 ##### Once you get going, take a look at: 
 
