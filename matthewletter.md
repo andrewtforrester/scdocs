@@ -13,4 +13,5 @@ In terms of resources for learning web development, I would recommend Adam Watha
 Overall, I think it is nearly impossible to have a solid grasp on web development and the Simple Charity website in only seven weeks. I hope that by the time you are reading this that Brian has hired an engineer who can help guide you in your work. Have fun, and set solid and achievable goals. Good luck! 
 
 Sincerely, 
+
 Mathew Luo

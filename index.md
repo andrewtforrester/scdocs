@@ -68,10 +68,10 @@ git switch develop
 6. Once you get a message that says "Ready to handle connections" on your terminal output, your development environment is running. In a browser, go to the address `127.0.0.1:8000` or `localhost:8000` to see the site. 
 7. You should see a 503 error message. That's because we haven't installed craft yet. Go to `127.0.0.1:8000/admin` and follow the instructions to install it. IMPORTANT: Don't change the environment variables. 
 8. Once craft installs successfully, go back to `127.0.0.1:8000`. You should still see an error. That's because we haven't imported the database into querious yet. Go to `simplecharity.org/admin` and log in with your credentials. Navigate to "utilities" on the sidebar and then to "database backup." Check the "download backup" checkbock and click "Backup." This will download a copy of the database onto your machine. Now, open querious. Log in using the credentials in the `.env` file we made earlier. click the plus button in the bottom right, select "new database", and follow the instruction on screen to import the database we downloaded. 
-9. Now your site should be able to talk to the database. Stop docker from the terminal, and relaunch it using `make dev`. All all future launches, run `make dev` to start the developmetn environment. 
+9. Now your site should be able to talk to the database. Stop docker from the terminal, and relaunch it using `make dev`. On all future launches, run `make dev` to start the development environment. 
 
 ### Contact
 
-[Andrew](mailto:andrewforrester@simplecharity.org) maintains this site and can (probably) answer questions about the SC tech stack and web dev in general. 
+[Andrew](mailto:andrewforrester@simplecharity.org) (the one who's been struck by lightning) maintains this site and can (probably) answer questions about the SC tech stack and web dev in general. 
 
 Happy coding! 
