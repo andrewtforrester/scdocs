@@ -8,9 +8,9 @@ Simple Charity's website is built on a few key technologies. Some are important 
 
 ##### Preliminaries: 
 
-1. The Command Line (Powershell on Windows and Bash/ZSh on Mac)
-2. Understand Git
-3. Get to know the file system on your machine
+1. The Command Line (Powershell on Windows and Bash/ZSh on Mac). [This](https://www.learnshell.org) is an excellent tutorial for bash. 
+2. Understand [Git](https://git-scm.com/doc)
+3. Get to know the file system on your machine. 
 
 ##### Before you start, you'll probably want to learn about: 
 
@@ -30,7 +30,7 @@ Simple Charity's website is built on a few key technologies. Some are important 
 
 ### Dependencies
 
-1. VSCode. Or if you _really_ like another code editor, you can use that - but VS Code has some very useful plugins that will make your life _much_ easier: 
+1. [VSCode](https://code.visualstudio.com). Or if you _really_ like another code editor, you can use that - but VS Code has some very useful plugins that will make your life _much_ easier: 
     - PostCSS Language Support & HTML CSS Support  
     - Live Server  
     - JSON  
@@ -40,12 +40,12 @@ Simple Charity's website is built on a few key technologies. Some are important 
     - Javascript Code Snippets  
 2. Git. It's probably on your machine already but you can run `git --version` on mac to check. If it's not installed already, follow the directions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install it. 
 3. [Tower](https://www.git-tower.com/mac). SC uses a git methodology called _[Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)_, and tower makes Gitflow very intuitive. They offer [free licenses for students](https://www.git-tower.com/students/mac) at accredited universities. If you're very comfortable with git in the command line, this isn't strictly necessary. 
-4. NPM and NodeJS
-5. Docker Desktop
-6. OpenSSH
-7. PHP
-8. Composer
-9. Querious
+4. [NPM](https://www.npmjs.com) and [NodeJS](https://nodejs.org/en/)
+5. [Docker Desktop](https://www.docker.com/products/docker-desktop)
+6. [OpenSSH](https://www.openssh.com)
+7. [PHP](https://www.php.net)
+8. [Composer](https://getcomposer.org)
+9. [Querious](https://www.araelium.com/querious)
 10. [Windows Only] Windows-NVM
 11. [Windows Only] WSL 2  
 
