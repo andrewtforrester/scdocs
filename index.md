@@ -72,15 +72,13 @@ git switch develop
 
 ### Design Guidelines
 
-Once you start making designs or changing existing ones, you'll want to loo kat Simple Charity's [brand](https://drive.google.com/file/d/1uAQ0PEs7yKxXlCuvM_2pOusghSbvkyzZ/view?usp=sharing) and [messaging] guidelines. Note: you won't be able to open these unless you have a Simlpe Charity email address and are logged inot you google account with it. 
+Once you start making designs or changing existing ones, you'll want to loo kat Simple Charity's [brand](https://drive.google.com/file/d/1uAQ0PEs7yKxXlCuvM_2pOusghSbvkyzZ/view?usp=sharing) and [messaging](https://drive.google.com/file/d/1nmJs26R45u7iNfY3wXt4PkUg58TGUeJ5/view?usp=sharing) guidelines. Note: you won't be able to open these unless you have a Simlpe Charity email address and are logged inot you google account with it. 
 
 ### Common Issues
 
 ##### Error 503
 
 ##### Database Connection Bugs
-
-##### 
 
 ### Contact
 
