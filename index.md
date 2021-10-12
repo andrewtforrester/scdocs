@@ -52,29 +52,23 @@ Simple Charity's website is built on a few key technologies. Some are important 
 ### Quick Start Guide
 
 1. Open up your terminal, create the working directory for the Simple Charity site, and navigate into it. 
-
 ```
 mkdir webprojects
 cd webprojects
 ```
-
 2. Clone the Git repository, navigate into it, and switch to the develop branch. 
-
 ```
 git clone git@github.com:jonathanmelville/simplecharity.git
 cd simplecharity
 git switch develop
 ```
-
 3. Explore the file structure a little bit. Once you're done, navigate to the cms directory with `cd cms`. Open the file "example.env" with `nano example.env` and take a look at it. This file contains all of the variables that specify how the site is to run on your machine. Once you're done, exit the file, and run `mv example.env .env`. This will change the file's name to ".env", which is what docker will expect to see when it looks for environment variables. 
-
 4. Launch Docker Desktop. 
 5. In the terminal, run the command `make dev`. This will run a routine that install the necessary dependencies on your computer. In docker desktop, you should see something like [this](/dockerrunning.png) after a little bit. 
 6. Once you get a message that says "Ready to handle connections" on your terminal output, your development environment is running. In a browser, go to the address `127.0.0.1:8000` or `localhost:8000` to see the site. 
 7. You should see a 503 error message. That's because we haven't installed craft yet. Go to `127.0.0.1:8000/admin` and follow the instructions to install it. IMPORTANT: Don't change the environment variables. 
-8. Once craft installs successfully, go back to `127.0.0.1:8000`. You should still see an error. That's because we haven't imported the database into querious yet. Go to `simplecharity.org/admin` and log in with your credentials. Navigate to "utilities" on the sidebar and then to "database backup." Check the "download backup" checkbock and click "Backup." This will download a copy of the database onto your machine. Now, open querious. Log in using the credentials in the `.env` file we made earlier. 
-9. For future launches, start Docker Desktop, cd into your working directory, then run `docker-compose up`. 
-
+8. Once craft installs successfully, go back to `127.0.0.1:8000`. You should still see an error. That's because we haven't imported the database into querious yet. Go to `simplecharity.org/admin` and log in with your credentials. Navigate to "utilities" on the sidebar and then to "database backup." Check the "download backup" checkbock and click "Backup." This will download a copy of the database onto your machine. Now, open querious. Log in using the credentials in the `.env` file we made earlier. click the plus button in the bottom right, select "new database", and follow the instruction on screen to import the database we downloaded. 
+9. Now your site should be able to talk to the database. Stop docker from the terminal, and relaunch it using `make dev`. All all future launches, run `make dev` to start the developmetn environment. 
 
 ### Contact
 
