@@ -45,28 +45,32 @@ Simple Charity's website is built on a few key technologies. Some are important 
 6. OpenSSH
 7. PHP
 8. Composer
-9. [Windows Only] Windows-NVM
-10. [Windows Only] WSL 2  
+9. Querious
+10. [Windows Only] Windows-NVM
+11. [Windows Only] WSL 2  
 
 ### Quick Start Guide
 
-1. Open up your terminal and create a new directory. 
+1. Open up your terminal, create the working directory for the Simple Charity site, and navigate into it. 
 
 ```
-{mkdir webprojects
+mkdir webprojects
 cd webprojects
-mkdir simplecharity
-cd simplecharity
-}
 ```
-2. CD into your working directory
-`cd simplecharity/dev`
-3. Clone the git repository into your simplecharity/dev folder, then check out the correct git branch
-`git clone git@github.com:jonathanmelville/simplecharity.git .`
-`git checkout develop`
-4. Launch Docker Desktop, then ensure that the environment (dev) exists
-5. Run `docker-compose up`
-6. For future launches, start Docker Desktop, cd into your working directory, then run `docker-compose up`
+
+2. Clone the Git repository, navigate into it, and switch to the develop branch. 
+
+```
+git clone git@github.com:jonathanmelville/simplecharity.git
+cd simplecharity
+git switch develop
+```
+
+3. Launch Docker Desktop. 
+4. In the terminal, run the command `make dev`. This will run a routine that install the necessary dependencies on your computer. In docker desktop, you should see something like [this](/dockerrunning.png) after a little bit. 
+5. Once you get a message that says "Ready to handle connections" on your terminal output, your development environment is running. In a browser, go to the address `127.0.0.1:8000` or `localhost:8000` to see the site. 
+6. You should see a 503 error message. That's because we haven't installed craft yet. 
+6. For future launches, start Docker Desktop, cd into your working directory, then run `docker-compose up`. 
 
 
 ### Contact
