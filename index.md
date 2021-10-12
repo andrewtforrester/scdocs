@@ -19,7 +19,7 @@ Simple Charity's website is built on a few key technologies. Some are important 
 3. Craft Basics. Craft here an excellent [intro tutorial](https://craftcms.com/docs/getting-started-tutorial/) which covers everything you’ll need to know to get started. 
 4. Tailwind. Tailwind has very excellent [documentation](https://tailwindcss.com/docs). Start be reading the “getting started” and “core concepts” sections, and then reference the rest as needed. 
 5. Basic Vue. Their [docs](https://vuejs.org/v2/guide/) are pretty good. [This](https://www.udemy.com/course/vuejs-2-the-complete-guide/) is also a good course. Don’t learn too much yet, you can pick it up as you start to work on the site pretty easily. 
-6. Basic Twig Templating. The [twig docs](https://twig.symfony.com/doc/3.x/) are ok, but they cover _way more_ that you’ll need to know. Part 3 of the craft [intro tutorial](https://craftcms.com/docs/getting-started-tutorial/) will cover everything you need to know. 
+6. Basic Twig Templating. The [twig docs](https://twig.symfony.com/doc/3.x/) are ok, but they cover _way more_ than you’ll need to know. Part 3 of the craft [intro tutorial](https://craftcms.com/docs/getting-started-tutorial/) will cover everything you need to know. 
 
 ##### Once you get going, take a look at: 
 
@@ -50,8 +50,15 @@ Simple Charity's website is built on a few key technologies. Some are important 
 
 ### Quick Start Guide
 
-1. Open up your terminal and create a new directory 
-`mkdir simplecharity/dev`
+1. Open up your terminal and create a new directory. 
+
+```
+{mkdir webprojects
+cd webprojects
+mkdir simplecharity
+cd simplecharity
+}
+```
 2. CD into your working directory
 `cd simplecharity/dev`
 3. Clone the git repository into your simplecharity/dev folder, then check out the correct git branch
