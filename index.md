@@ -70,6 +70,18 @@ git switch develop
 8. Once craft installs successfully, go back to `127.0.0.1:8000`. You should still see an error. That's because we haven't imported the database into querious yet. Go to `simplecharity.org/admin` and log in with your credentials. Navigate to "utilities" on the sidebar and then to "database backup." Check the "download backup" checkbock and click "Backup." This will download a copy of the database onto your machine. Now, open querious. Log in using the credentials in the `.env` file we made earlier. click the plus button in the bottom right, select "new database", and follow the instruction on screen to import the database we downloaded. 
 9. Now your site should be able to talk to the database. Stop docker from the terminal, and relaunch it using `make dev`. On all future launches, run `make dev` to start the development environment. 
 
+### Design Guidelines
+
+Once you start making designs or changing existing ones, you'll want to loo kat Simple Charity's [brand](https://drive.google.com/file/d/1uAQ0PEs7yKxXlCuvM_2pOusghSbvkyzZ/view?usp=sharing) and [messaging] guidelines. Note: you won't be able to open these unless you have a Simlpe Charity email address and are logged inot you google account with it. 
+
+### Common Issues
+
+##### Error 503
+
+##### Database Connection Bugs
+
+##### 
+
 ### Contact
 
 [Andrew](mailto:andrewforrester@simplecharity.org) (the one who's been struck by lightning) maintains this site and can (probably) answer questions about the SC tech stack and web dev in general. 
